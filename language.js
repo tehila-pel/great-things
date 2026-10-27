@@ -2,7 +2,7 @@
   const translations = {
     en: {
       languageLabel: 'Language', home: 'Great Things home', skip: 'Skip to content', note: 'Our point of view',
-      headline1: 'Great things are built', headline2: 'around your business.',
+      headline1: 'AI built around', headline2: 'your business.',
       paragraph1: 'Great people spend too much time on work that gets in the way of their work. Following up. Moving information around. Keeping disconnected systems running.',
       paragraph2: "We think that's worth fixing.",
       paragraph3: 'We work with teams to understand how their business runs, reaches people, and grows. Then we build better ways to do it, including practical AI tools and automations that handle routine work and open up new ways to serve customers. We use the tools that make sense for the job.',
@@ -16,7 +16,7 @@
     },
     es: {
       languageLabel: 'Idioma', home: 'Inicio de Great Things', skip: 'Ir al contenido', note: 'Nuestra forma de verlo',
-      headline1: 'Las grandes cosas se construyen', headline2: 'alrededor de tu negocio.',
+      headline1: 'IA diseñada en torno', headline2: 'a tu negocio.',
       paragraph1: 'Las grandes personas dedican demasiado tiempo a tareas que les impiden hacer su trabajo. Dar seguimiento. Mover información de un lado a otro. Mantener sistemas que no se conectan.',
       paragraph2: 'Creemos que vale la pena cambiar eso.',
       paragraph3: 'Trabajamos con equipos para entender cómo funciona su negocio, cómo llega a las personas y cómo crece. Después construimos mejores formas de hacer las cosas, incluidas herramientas prácticas de IA y automatizaciones que se ocupan del trabajo rutinario y abren nuevas formas de atender a los clientes. Usamos las herramientas que mejor encajan con cada tarea.',
@@ -30,7 +30,7 @@
     },
     pt: {
       languageLabel: 'Idioma', home: 'Página inicial da Great Things', skip: 'Ir para o conteúdo', note: 'O nosso ponto de vista',
-      headline1: 'As grandes coisas nascem', headline2: 'à volta do teu negócio.',
+      headline1: 'IA criada à volta', headline2: 'do teu negócio.',
       paragraph1: 'Pessoas excelentes passam demasiado tempo em tarefas que as afastam do seu trabalho. Fazer seguimentos. Passar informação de um lado para o outro. Manter sistemas que não se ligam.',
       paragraph2: 'Achamos que vale a pena mudar isso.',
       paragraph3: 'Trabalhamos com equipas para perceber como o seu negócio funciona, chega às pessoas e cresce. Depois criamos melhores formas de fazer as coisas, incluindo ferramentas práticas de IA e automações que tratam das tarefas rotineiras e abrem novas formas de servir clientes. Usamos as ferramentas que fazem sentido para cada tarefa.',
@@ -44,7 +44,7 @@
     },
     zh: {
       languageLabel: '语言', home: 'Great Things 首页', skip: '跳转到正文', note: '我们的看法',
-      headline1: '好的成果，始于', headline2: '真正理解你的业务。',
+      headline1: '围绕你的业务', headline2: '打造的 AI。',
       paragraph1: '优秀的人花了太多时间处理妨碍正事的杂务。反复跟进。搬运信息。维持互不相通的系统运转。',
       paragraph2: '我们觉得，这些事值得改变。',
       paragraph3: '我们与团队一起了解业务如何运转，如何触达客户，以及如何成长。然后找到更好的做法，包括用实用的 AI 工具和自动化流程处理日常事务，并开辟服务客户的新方式。我们只用真正适合这项工作的工具。',
@@ -58,7 +58,7 @@
     },
     he: {
       languageLabel: 'שפה', home: 'עמוד הבית של Great Things', skip: 'דילוג לתוכן', note: 'נקודת המבט שלנו',
-      headline1: 'דברים גדולים נבנים', headline2: 'סביב העסק שלכם.',
+      headline1: 'AI שנבנה', headline2: 'סביב העסק שלכם.',
       paragraph1: 'אנשים מעולים מבזבזים יותר מדי זמן על עבודה שמפריעה להם לעשות את העבודה שלהם. לעקוב אחרי דברים. להעביר מידע ממקום למקום. להחזיק מערכות שלא מדברות זו עם זו.',
       paragraph2: 'אנחנו חושבים שכדאי לשנות את זה.',
       paragraph3: 'אנחנו עובדים עם צוותים כדי להבין איך העסק שלהם פועל, מגיע לאנשים וצומח. אחר כך אנחנו בונים דרכים טובות יותר לעשות את הדברים, כולל כלי AI מעשיים ואוטומציות שמטפלים בעבודה השוטפת ופותחים דרכים חדשות לתת שירות ללקוחות. אנחנו משתמשים בכלים שמתאימים לעבודה.',
