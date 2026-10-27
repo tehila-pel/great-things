@@ -6,6 +6,10 @@
   let bookingInitialized = false;
   let lastTrigger;
   let widgetPromise;
+  function setMessage(key) {
+    message.dataset.i18n = key;
+    message.textContent = window.GREAT_THINGS_TRANSLATIONS[document.documentElement.lang][key];
+  }
   document.querySelector('#year').textContent = new Date().getFullYear();
   function loadCalendly() {
     if (window.Calendly) return Promise.resolve();
@@ -25,22 +29,25 @@
     dialog.showModal();
     document.body.classList.add('modal-open');
     const configuredUrl = window.GREAT_THINGS_CONFIG?.calendlyUrl;
-    if (!configuredUrl || bookingInitialized) return;
+    if (bookingInitialized) return;
     let url;
     try {
       url = new URL(configuredUrl);
       if (url.protocol !== 'https:' || url.hostname !== 'calendly.com') throw new Error('Invalid calendar URL');
-    } catch { message.textContent = 'The booking calendar is temporarily unavailable. Please check back shortly.'; return; }
+    } catch { setMessage('unavailable'); return; }
     fallback.href = url.href;
     fallback.hidden = false;
-    message.textContent = 'Loading available times…';
+    setMessage('loading');
     try {
       await loadCalendly();
-      url.searchParams.set('primary_color', '7560de');
+      url.searchParams.set('hide_event_type_details', '1');
+      url.searchParams.set('background_color', 'EFEBE3');
+      url.searchParams.set('text_color', '171714');
+      url.searchParams.set('primary_color', '171714');
       window.Calendly.initInlineWidget({ url: url.href, parentElement: embed });
       bookingInitialized = true;
-      message.textContent = 'Choose a time that works for you.';
-    } catch { message.textContent = 'The calendar couldn’t load here. You can open it in a new tab below.'; }
+      setMessage('ready');
+    } catch { setMessage('fallback'); }
   }
   document.querySelectorAll('[data-book]').forEach(button => button.addEventListener('click', openBooking));
   dialog.querySelector('.close-dialog').addEventListener('click', () => dialog.close());
