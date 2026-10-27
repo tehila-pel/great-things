@@ -36,13 +36,18 @@ button:focus-visible, a:focus-visible { outline: 2px solid #171714; outline-offs
 }
 
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   max-width: 1440px;
   margin-inline: auto;
-  padding: 38px 6%;
+  padding: 28px 6%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+  border-block-end: 1px solid #d4d3cb;
+  background: #efebe3;
 }
 .brand { display: inline-flex; align-items: center; flex: none; }
 .brand img { display: block; width: 205px; height: auto; }
@@ -60,7 +65,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid #171714; outline-offs
   direction: ltr;
 }
 .language-picker select:focus-visible { outline: 2px solid #171714; outline-offset: 4px; }
-.booking-link { font-size: 14px; font-weight: 500; }
+.booking-link { font-size: 16px; font-weight: 500; }
 .booking-link {
   border: 0;
   border-bottom: 1px solid #171714;
@@ -73,12 +78,26 @@ button:focus-visible, a:focus-visible { outline: 2px solid #171714; outline-offs
 .manifesto {
   max-width: 1440px;
   margin-inline: auto;
-  padding: 103px 6% 87px;
+  padding: 95px 6% 0;
+}
+.manifesto-section {
   display: grid;
   grid-template-columns: 23% 1fr;
   gap: 24px;
+  padding-block-end: 110px;
 }
-.margin-note { padding-block-start: 15px; color: #6e6d66; font-size: 13px; }
+.manifesto-section + .manifesto-section {
+  border-block-start: 1px solid #d4d3cb;
+  padding-block-start: 96px;
+}
+.margin-note {
+  position: sticky;
+  top: 105px;
+  align-self: start;
+  padding-block-start: 15px;
+  color: #6e6d66;
+  font-size: 13px;
+}
 .writing { max-width: 815px; }
 h1 {
   margin: 0 0 49px;
@@ -95,28 +114,41 @@ h1 {
   line-height: 1.65;
   letter-spacing: -.01em;
 }
-.body-copy p:nth-child(2) { font-weight: 500; }
-.signature { margin-block-start: 35px; }
-.signature img { display: block; width: 164px; height: auto; }
-.invitation {
+.body-copy p:last-child { margin-block-end: 0; }
+.statement {
   max-width: 675px;
-  margin-block-start: 56px;
-  padding-block-start: 29px;
+  margin: 56px 0 0;
+  font-size: clamp(28px, 3.2vw, 43px);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -.02em;
+}
+.invitation {
+  max-width: 815px;
+  margin-block-start: 94px;
+  padding-block-start: 40px;
   border-block-start: 1px solid #d4d3cb;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 32px;
 }
-.invitation p { margin: 0; font-size: 14px; }
+.invitation p {
+  max-width: 500px;
+  margin: 0;
+  font-size: clamp(25px, 3vw, 38px);
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -.02em;
+}
 .button {
-  min-height: 48px;
-  padding: 12px 28px;
+  min-height: 60px;
+  padding: 14px 32px;
   border: 1px solid #171714;
   border-radius: 2px;
   background: #171714;
   color: #efebe3;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   white-space: nowrap;
   transition: background-color 150ms, color 150ms;
@@ -125,12 +157,14 @@ h1 {
 footer {
   max-width: 1268px;
   margin-inline: auto;
-  padding: 23px 0 29px;
+  padding: 28px 0 36px;
   border-block-start: 1px solid #d4d3cb;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   font-size: 12px;
 }
+footer img { display: block; width: 150px; height: auto; }
 
 dialog {
   width: min(820px, calc(100% - 24px));
@@ -170,7 +204,8 @@ body.modal-open { overflow: hidden; }
   footer { margin-inline: 6%; }
 }
 @media (max-width: 900px) {
-  .manifesto { grid-template-columns: 17% 1fr; gap: 20px; padding-block-start: 70px; }
+  .manifesto { padding-block-start: 70px; }
+  .manifesto-section { grid-template-columns: 17% 1fr; gap: 20px; }
   h1 { font-size: 52px; }
   .body-copy p { font-size: 19px; }
 }
@@ -179,14 +214,19 @@ body.modal-open { overflow: hidden; }
   .brand img { width: 148px; }
   .header-actions { gap: 12px; }
   .language-picker select { width: 51px; font-size: 18px; }
-  .booking-link { font-size: 12px; white-space: nowrap; }
-  .manifesto { display: block; padding: 55px 7% 58px; }
-  .margin-note { padding: 0; margin-block-end: 24px; font-size: 12px; }
+  .booking-link { font-size: 14px; white-space: nowrap; }
+  .manifesto { padding: 55px 7% 0; }
+  .manifesto-section { display: block; padding-block-end: 70px; }
+  .manifesto-section + .manifesto-section { padding-block-start: 58px; }
+  .margin-note { position: static; padding: 0; margin-block-end: 24px; font-size: 12px; }
   h1 { margin-block-end: 33px; font-size: 42px; }
   .body-copy p { margin-block-end: 23px; font-size: 18px; line-height: 1.7; }
-  .signature { margin-block-start: 28px; }
-  .invitation { margin-block-start: 38px; padding-block-start: 24px; align-items: start; flex-direction: column; gap: 18px; }
-  footer { margin-inline: 7%; }
+  .statement { margin-block-start: 38px; font-size: 30px; }
+  .invitation { margin-block-start: 56px; padding-block-start: 30px; align-items: start; flex-direction: column; gap: 24px; }
+  .invitation p { font-size: 29px; }
+  .button { min-height: 56px; }
+  footer { margin-inline: 7%; gap: 20px; }
+  footer img { width: 128px; }
   dialog { width: 100%; max-height: 100dvh; padding-inline: 0; }
   .booking-intro { padding: 48px 18px 10px; }
 }
