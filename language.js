@@ -23,25 +23,25 @@
       fallbackLink: 'Open the calendar in a new tab'
     },
     es: {
-      languageLabel: 'Idioma', home: 'Inicio de Great Things', skip: 'Ir al contenido', note: 'Nuestra forma de verlo',
-      headline1: 'IA a medida, creada', headline2: 'dentro de tu negocio.',
-      heroIntro: 'Creamos agentes de IA y automatizaciones con tus sistemas y datos, junto a tu equipo. Diseñados según tu forma de trabajar.',
-      paragraph1: 'Sabes que la IA importa, pero las herramientas que has probado no encajan con la forma en que funciona tu empresa. Mientras tanto, grandes personas siguen dedicando demasiado tiempo a hacer seguimientos, mover información y mantener sistemas desconectados en marcha. Tu equipo tiene trabajo que hacer y poco tiempo para otra herramienta que se queda al margen.',
-      paragraph2: 'Es mejor empezar por el trabajo mismo. Mirar dónde se detiene la información, dónde se repiten los mismos pasos y dónde una nueva capacidad podría ayudar al negocio a llegar a más clientes o atenderlos mejor.',
-      statement: 'La IA debe adaptarse a cómo funciona tu negocio.', section2Label: 'Lo que construimos',
-      paragraph3: 'Aprendemos cómo funciona tu negocio y creamos agentes de IA y automatizaciones alrededor de tus procesos, sistemas y datos, junto a tu equipo. Las herramientas pasan a formar parte del trabajo que ya haces y del que todavía está por venir.',
-      paragraph4: 'Algunos proyectos ayudan a tu equipo a sacar más partido de los sistemas que ya usa. Otros abren espacio para crecer al encontrar mejores maneras de llegar a los clientes u ofrecer algo nuevo. El primer proyecto es pequeño a propósito y tiene un objetivo claro, para que veas qué cambia antes de decidir el siguiente paso.',
+      languageLabel: 'Idioma', home: 'Inicio de Great Things', skip: 'Ir al contenido', note: 'Nuestra perspectiva',
+      headline1: 'IA a medida, integrada', headline2: 'en tu empresa.',
+      heroIntro: 'Creamos agentes de IA y automatizaciones que trabajan con tus sistemas y datos, junto a tu equipo. Todo se adapta a la forma de trabajar de tu empresa.',
+      paragraph1: 'Sabes que la IA puede aportar mucho, pero las herramientas que has probado no encajan con la realidad de tu empresa. Mientras tanto, personas con talento siguen dedicando demasiado tiempo a hacer seguimiento, trasladar información y mantener en marcha sistemas que no se comunican entre sí. Tu equipo ya tiene suficiente trabajo como para sumar otra herramienta que apenas se usa.',
+      paragraph2: 'El mejor punto de partida es el trabajo de cada día. Ver dónde se atasca la información, qué tareas se repiten y dónde una nueva capacidad podría ayudar a llegar a más clientes o atenderlos mejor.',
+      statement: 'La IA debe adaptarse a la forma de trabajar de tu empresa.', section2Label: 'Lo que hacemos',
+      paragraph3: 'Primero entendemos cómo funciona tu empresa. Después, junto con tu equipo, creamos agentes de IA y automatizaciones que se integran en tus procesos, sistemas y datos. Así pasan a formar parte de lo que ya haces y de lo que todavía podrías hacer.',
+      paragraph4: 'Hay proyectos que ayudan a tu equipo a sacar más partido de los sistemas que ya utiliza. Otros abren nuevas posibilidades de crecimiento, con mejores formas de llegar a los clientes o de ofrecer algo nuevo. Empezamos con un proyecto pequeño y un objetivo claro, para que puedas ver qué cambia antes de decidir el siguiente paso.',
       section3Label: 'Cómo trabajamos',
-      paragraph5: 'Empezamos con una conversación, aprendemos cómo funciona todo en la práctica y elegimos juntos el primer problema que merece atención. Después acordamos el alcance, construimos, ponemos el resultado en marcha y lo mejoramos con el uso. Cada proyecto tiene su propio plazo, que conocerás antes de empezar.',
-      paragraph6: 'Nuestro objetivo es sencillo: ayudar a que tu negocio funcione mejor y dar a tu equipo más tiempo para hacerlo avanzar.',
+      paragraph5: 'Empezamos con una conversación para entender cómo funciona la empresa en la práctica y elegir juntos el primer problema que vale la pena resolver. Luego acordamos el alcance, construimos la solución, la ponemos a trabajar y la mejoramos con el uso. Antes de empezar, sabrás cuánto tiempo llevará el proyecto.',
+      paragraph6: 'Nuestro objetivo es sencillo: que tu empresa funcione mejor y que tu equipo tenga más tiempo para hacerla avanzar.',
       section4Label: 'Quiénes somos',
-      paragraph7: 'Venimos del mundo empresarial y de la tecnología, y nos gusta entender el problema completo antes de elegir una herramienta. La respuesta útil suele necesitar ambas perspectivas.',
-      paragraph8: 'En cada proyecto reunimos a quienes conocen el trabajo y a quienes pueden construir lo que viene. Nos importa el día en que se pone en marcha y también cualquier martes que llega después.',
-      invitation: 'Descubre dónde encaja la IA en tu negocio.', book: 'Reserva una llamada', bookIntro: 'Reserva una primera llamada', contactLabel: 'Contacto',
+      paragraph7: 'Combinamos experiencia en negocio y tecnología. Antes de elegir una herramienta, queremos entender bien el problema. Una solución que sirva de verdad suele necesitar ambas perspectivas.',
+      paragraph8: 'En cada proyecto reunimos a quienes conocen el trabajo desde dentro y a quienes saben construir lo que hace falta. Nos importa cómo funciona el día de su lanzamiento y también un martes cualquiera, mucho después.',
+      invitation: 'Hablemos de cómo puede encajar la IA en tu empresa.', book: 'Reserva una llamada', bookIntro: 'Reserva una primera llamada', contactLabel: 'Contacto',
       dialogTitle: 'Hablemos.', close: 'Cerrar la ventana de reservas',
-      loading: 'Cargando el calendario…', ready: 'Elige el momento que te venga bien.',
-      unavailable: 'El calendario no está disponible ahora. Inténtalo más tarde.',
-      fallback: 'No se pudo cargar el calendario aquí. Ábrelo en una pestaña nueva.',
+      loading: 'Cargando el calendario…', ready: 'Elige el horario que más te convenga.',
+      unavailable: 'El calendario no está disponible ahora. Vuelve a intentarlo más tarde.',
+      fallback: 'No se pudo cargar el calendario aquí. Puedes abrirlo en otra pestaña.',
       fallbackLink: 'Abrir el calendario en una pestaña nueva'
     },
     pt: {
@@ -89,21 +89,21 @@
       fallbackLink: '在新标签页中打开日历'
     },
     he: {
-      languageLabel: 'שפה', home: 'עמוד הבית של Great Things', skip: 'דילוג לתוכן', note: 'נקודת המבט שלנו',
-      headline1: 'AI מותאם אישית,', headline2: 'שנבנה בתוך העסק שלכם.',
-      heroIntro: 'אנחנו בונים סוכני AI ואוטומציות על המערכות והנתונים שלכם, יחד עם הצוות שלכם. הכול נבנה לפי הדרך שבה אתם עובדים.',
-      paragraph1: 'אתם יודעים ש AI חשוב, אבל הכלים שניסיתם לא התאימו לאופן שבו החברה שלכם באמת עובדת. בינתיים, אנשים מעולים עדיין משקיעים יותר מדי זמן במעקב, בהעברת מידע ובתחזוקה של מערכות שלא מחוברות זו לזו. לצוות שלכם יש עבודה לעשות, ואין לו זמן לעוד כלי שנשאר בצד.',
-      paragraph2: 'מקום טוב יותר להתחיל בו הוא העבודה עצמה. לראות איפה מידע נתקע, איפה אנשים חוזרים על אותם צעדים, ואיפה יכולת חדשה יכולה לעזור לעסק להגיע ליותר לקוחות או לתת להם שירות טוב יותר.',
-      statement: 'AI צריך להתאים לאופן שבו העסק שלכם עובד.', section2Label: 'מה אנחנו בונים',
-      paragraph3: 'אנחנו לומדים איך העסק שלכם עובד, ואז בונים סוכני AI ואוטומציות סביב התהליכים, המערכות והנתונים שלכם, יחד עם הצוות שלכם. הכלים משתלבים בעבודה שאתם כבר עושים, וגם בעבודה שעוד לא התחלתם.',
-      paragraph4: 'יש פרויקטים שעוזרים לצוות להפיק יותר מהמערכות שבהן הוא כבר משתמש. אחרים יוצרים מקום לצמיחה, עם דרכים טובות יותר להגיע ללקוחות או להציע משהו חדש. הפרויקט הראשון קטן בכוונה ויש לו מטרה ברורה, כדי שתוכלו לראות מה משתנה לפני שמחליטים מה בא אחר כך.',
+      languageLabel: 'שפה', home: 'עמוד הבית של Great Things', skip: 'מעבר לתוכן', note: 'איך אנחנו רואים את הדברים',
+      headline1: 'בינה מלאכותית שנבנית', headline2: 'מתוך העסק שלכם.',
+      heroIntro: 'אנחנו בונים סוכני AI ואוטומציות שפועלים עם המערכות והנתונים שלכם, יחד עם הצוות שלכם. הכול מותאם לדרך שבה אתם עובדים.',
+      paragraph1: 'ברור לכם שלבינה מלאכותית יש מקום בעסק, אבל הכלים שניסיתם לא באמת התאימו לאופן שבו החברה שלכם פועלת. בינתיים, אנשים טובים כמוכם מקדישים יותר מדי זמן למעקב אחרי משימות, להעברת מידע ולתחזוקה של מערכות שלא מדברות זו עם זו. לצוות שלכם יש עבודה חשובה לעשות, ואין לו זמן לעוד כלי שנשאר מחוץ לתמונה.',
+      paragraph2: 'אנחנו מאמינים שצריך להתחיל מלהבין את העבודה עצמה. לראות איפה מידע נתקע, אילו פעולות חוזרות על עצמן, ואיפה יכולת חדשה יכולה לעזור לעסק להגיע לעוד לקוחות או לתת להם שירות טוב יותר.',
+      statement: 'בינה מלאכותית צריכה להתאים לדרך שבה העסק שלכם עובד.', section2Label: 'מה אנחנו בונים',
+      paragraph3: 'אנחנו לומדים איך העסק שלכם פועל, ואז בונים עם הצוות שלכם סוכני AI ואוטומציות שמתאימים לתהליכים, למערכות ולנתונים הקיימים. הם משתלבים במה שאתם כבר עושים, ופותחים מקום גם למה שעוד לא התחלתם.',
+      paragraph4: 'יש פרויקטים שעוזרים לצוות להפיק יותר מהמערכות הקיימות. אחרים פותחים אפשרויות לצמיחה, עם דרכים טובות יותר להגיע ללקוחות או להציע משהו חדש. מתחילים בפרויקט קטן וממוקד, עם מטרה ברורה, כדי שתוכלו לראות מה השתנה לפני שמחליטים איך ממשיכים.',
       section3Label: 'איך אנחנו עובדים',
-      paragraph5: 'אנחנו מתחילים בשיחה, לומדים איך הדברים עובדים בפועל ובוחרים יחד את הבעיה הראשונה שכדאי לפתור. אחר כך מסכמים את היקף העבודה, בונים, מטמיעים ומשפרים תוך כדי שימוש. לכל פרויקט יש לוח זמנים משלו, שתכירו לפני שהעבודה מתחילה.',
-      paragraph6: 'המטרה שלנו פשוטה: לעזור לעסק שלכם לעבוד טוב יותר ולפנות לאנשים שלכם יותר זמן כדי לקדם אותו.',
+      paragraph5: 'אנחנו מתחילים בשיחה, לומדים איך הדברים עובדים בפועל ובוחרים יחד את הבעיה הראשונה שכדאי לפתור. אחר כך מגדירים את היקף הפרויקט, בונים את הפתרון, מכניסים אותו לשימוש ומשפרים אותו תוך כדי עבודה. לפני שמתחילים, תדעו כמה זמן הפרויקט צפוי לקחת.',
+      paragraph6: 'המטרה שלנו פשוטה: לעזור לחברה שלכם לפעול טוב יותר ולפנות לצוות שלכם יותר זמן לקדם אותה.',
       section4Label: 'מי אנחנו',
-      paragraph7: 'אנחנו באים מעולמות העסקים והטכנולוגיה, ומעדיפים להבין את הבעיה כולה לפני שבוחרים כלי. תשובה שבאמת מועילה צריכה בדרך כלל את שתי נקודות המבט.',
-      paragraph8: 'בכל פרויקט אנחנו מחברים בין האנשים שמכירים את העבודה לבין מי שיודעים לבנות את הצעד הבא. אכפת לנו מיום העלייה לאוויר, וגם מיום עבודה רגיל שמגיע אחר כך.',
-      invitation: 'בואו נראה איפה AI מתאים לעסק שלכם.', book: 'קביעת שיחה', bookIntro: 'קביעת שיחת היכרות', contactLabel: 'צרו קשר',
+      paragraph7: 'אנחנו מביאים ניסיון עסקי וטכנולוגי, ומעדיפים להבין את הבעיה לעומק לפני שבוחרים כלי. כדי למצוא פתרון שעובד, צריך בדרך כלל את שתי נקודות המבט.',
+      paragraph8: 'לכל פרויקט אנחנו מביאים את מי שמכירים את העבודה מבפנים ואת מי שיודעים לבנות את מה שצריך הלאה. חשוב לנו שהפתרון יעבוד ביום שבו הוא עולה לאוויר, וגם ביום שלישי שגרתי, הרבה אחר כך.',
+      invitation: 'בואו נבדוק איפה בינה מלאכותית יכולה להשתלב בעסק שלכם.', book: 'קביעת שיחה', bookIntro: 'קביעת שיחת היכרות', contactLabel: 'צרו קשר',
       dialogTitle: 'בואו נדבר.', close: 'סגירת חלון קביעת השיחה',
       loading: 'טוענים את היומן…', ready: 'בחרו זמן שמתאים לכם.',
       unavailable: 'היומן לא זמין כרגע. אפשר לנסות שוב מאוחר יותר.',
@@ -113,7 +113,7 @@
   };
 
   const picker = document.querySelector('#language');
-  function setLanguage(language) {
+  function setLanguage(language, historyMode) {
     const selected = language === 'en-US' || language === 'en-GB'
       ? language
       : Object.hasOwn(translations, language) && language !== 'en' ? language : 'en-US';
@@ -129,12 +129,21 @@
     document.querySelectorAll('[data-i18n-aria]').forEach(element => {
       element.setAttribute('aria-label', copy[element.dataset.i18nAria]);
     });
+    if (historyMode) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('lang', selected);
+      window.history[historyMode + 'State'](null, '', url);
+    }
     try { localStorage.setItem('greatThingsLanguage', selected); } catch {}
   }
 
   window.GREAT_THINGS_TRANSLATIONS = translations;
   let savedLanguage;
   try { savedLanguage = localStorage.getItem('greatThingsLanguage'); } catch {}
-  setLanguage(savedLanguage);
-  picker.addEventListener('change', event => setLanguage(event.target.value));
+  const urlLanguage = new URL(window.location.href).searchParams.get('lang');
+  setLanguage(urlLanguage || savedLanguage, 'replace');
+  picker.addEventListener('change', event => setLanguage(event.target.value, 'push'));
+  window.addEventListener('popstate', () => {
+    setLanguage(new URL(window.location.href).searchParams.get('lang'));
+  });
 })();
