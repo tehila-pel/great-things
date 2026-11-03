@@ -48,12 +48,23 @@ button:focus-visible, a:focus-visible { outline: 2px solid #171714; outline-offs
   gap: 24px;
   border-block-end: 1px solid #d4d3cb;
   background: #efebe3;
-  transition: padding 220ms ease;
 }
-.header.is-compact { padding-block: 18px; }
-.brand { display: inline-flex; align-items: center; flex: none; }
-.brand img { display: block; width: 205px; height: auto; transition: width 220ms ease; }
-.header.is-compact .brand img { width: 185px; }
+.brand {
+  display: grid;
+  grid-template-columns: 12.85% 81.17%;
+  column-gap: 5.98%;
+  align-items: center;
+  direction: ltr;
+  flex: none;
+  width: 205px;
+}
+.brand-mark { display: block; width: 100%; height: auto; fill: #171714; }
+.brand-corner { animation: corner-place 4s ease-in-out infinite; }
+.brand img { display: block; width: 100%; height: auto; }
+@keyframes corner-place {
+  0%, 25%, 100% { transform: translate(0, 0); }
+  12.5% { transform: translate(-5px, 5px); }
+}
 .header-actions { display: flex; align-items: center; gap: 25px; }
 .language-picker { display: inline-flex; align-items: center; }
 .language-picker select {
@@ -93,6 +104,30 @@ button:focus-visible, a:focus-visible { outline: 2px solid #171714; outline-offs
   border-block-start: 1px solid #d4d3cb;
   padding-block-start: 96px;
 }
+.manifesto-section.will-reveal {
+  position: relative;
+  border-block-start: 0;
+}
+.manifesto-section.will-reveal::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  height: 1px;
+  background: #d4d3cb;
+  transform: scaleX(0);
+  transition: transform 850ms ease;
+}
+.manifesto-section.will-reveal.is-visible::before { transform: scaleX(1); }
+.manifesto-section.will-reveal .margin-note,
+.manifesto-section.will-reveal .writing {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 650ms ease, transform 650ms cubic-bezier(.2, .65, .2, 1);
+}
+.manifesto-section.will-reveal .writing { transition-delay: 100ms; }
+.manifesto-section.will-reveal.is-visible .margin-note,
+.manifesto-section.will-reveal.is-visible .writing { opacity: 1; transform: none; }
 .margin-note {
   position: sticky;
   top: 105px;
@@ -227,9 +262,7 @@ body.modal-open { overflow: hidden; }
 }
 @media (max-width: 600px) {
   .header { padding: 26px 7%; gap: 16px; }
-  .brand img { width: 148px; }
-  .header.is-compact { padding-block: 18px; }
-  .header.is-compact .brand img { width: 138px; }
+  .brand { width: 148px; }
   .header-actions { gap: 12px; }
   .language-picker select { width: 51px; font-size: 18px; }
   .booking-link { font-size: 14px; white-space: nowrap; }
@@ -252,6 +285,14 @@ body.modal-open { overflow: hidden; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .header, .brand img { transition: none; }
+  .brand-corner { animation: none; }
+  .manifesto-section.will-reveal::before,
+  .manifesto-section.will-reveal .margin-note,
+  .manifesto-section.will-reveal .writing { opacity: 1; transform: none; transition: none; }
   .button { transition: none; }
+}
+@media print {
+  .manifesto-section.will-reveal::before,
+  .manifesto-section.will-reveal .margin-note,
+  .manifesto-section.will-reveal .writing { opacity: 1; transform: none; }
 }

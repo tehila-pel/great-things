@@ -24,16 +24,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="styles.css?v=9" rel="stylesheet">
+  <link href="styles.css?v=12" rel="stylesheet">
   <script src="config.js?v=4" defer></script>
-  <script src="language.js?v=10" defer></script>
+  <script src="language.js?v=11" defer></script>
   <script src="app.js?v=4" defer></script>
-  <script src="header-motion.js?v=1" defer></script>
+  <script src="section-reveal.js?v=1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
   <header class="header">
-    <a href="#top" class="brand" aria-label="Great Things home" data-i18n-aria="home"><img src="assets/great-things-logo-ink.svg" alt="" width="366" height="47"></a>
+    <a href="#top" class="brand" aria-label="Great Things home" data-i18n-aria="home">
+      <svg class="brand-mark" viewBox="0 0 7.25 7.25" aria-hidden="true">
+        <path d="M.5 4.5V0h6.75v6.75h-4.5v-1h3.5V1H1.5v3.5Z"/>
+        <rect class="brand-corner" x="0" y="5.25" width="2" height="2"/>
+      </svg>
+      <img src="assets/great-things-wordmark-ink.svg" alt="" width="297" height="47">
+    </a>
     <div class="header-actions">
       <label class="language-picker">
         <span class="visually-hidden">Language</span>
@@ -76,6 +82,15 @@
           <div class="body-copy">
             <p data-i18n="paragraph5">We start with a conversation, learn how things actually run, and choose the first problem worth solving together. Then we agree on the scope, build, put the result to work, and improve it in use. Each project has its own timeline, which you see before work begins.</p>
             <p data-i18n="paragraph6">Our goal is simple: help your business work better and give your people more time to move it forward.</p>
+          </div>
+        </div>
+      </section>
+      <section class="manifesto-section">
+        <div class="margin-note" data-i18n="section4Label">Who we are</div>
+        <div class="writing">
+          <div class="body-copy">
+            <p data-i18n="paragraph7">We come from business and technology, and we like to understand the whole problem before reaching for a tool. The useful answer usually needs both.</p>
+            <p data-i18n="paragraph8">For each project, we bring in the people who know the work and the people who can build what comes next. We care about the day it goes live and the ordinary Tuesday after.</p>
           </div>
           <div class="invitation"><p data-i18n="invitation">See where AI fits in your business.</p><button class="button" type="button" data-book data-i18n="bookIntro">Book an intro call</button></div>
         </div>
